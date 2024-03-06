@@ -15,11 +15,11 @@ public partial class UserDetail
 
     public string? VehicleType { get; set; }
 
-    public string? VechicleNumber { get; set; }
+    public string? VehicleNumber { get; set; }
 
     public int? WarehouseId { get; set; }
 
-    public bool? IsApproved { get; set; }
+    public int? IsApproved { get; set; }
 
     public virtual User User { get; set; } = null!;
 

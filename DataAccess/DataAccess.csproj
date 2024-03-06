@@ -19,8 +19,5 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessObj\BusinessObj.csproj" />
-  </ItemGroup>
-
+  
 </Project>

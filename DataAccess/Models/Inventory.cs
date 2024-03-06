@@ -13,11 +13,11 @@ public partial class Inventory
 
     public int WarehouseId { get; set; }
 
-    public bool? IsActive { get; set; }
-
     public string? ProductDescription { get; set; }
 
     public decimal? Price { get; set; }
+
+    public bool? IsActive { get; set; }
 
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 
